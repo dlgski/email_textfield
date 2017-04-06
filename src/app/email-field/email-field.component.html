@@ -1,0 +1,13 @@
+<div id="input_wrapper" (click)="click_wrapper($event, email_input )">
+  <div *ngIf="!inEditMode" class="example-text" data-role="placeholder">
+    email@address.com
+  </div>
+  <ul>
+    <email-node *ngFor="let email of emails" [emailstr]="email.emailstr" [pillclass]="email.pillclass"></email-node>
+  </ul>
+  <ul>
+    <li class="input-target">
+      <textarea #email_input (keydown) = "keydown_input($event)" class="email_input" name="email-input"></textarea>
+    </li>
+  </ul>
+</div>

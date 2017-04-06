@@ -1,0 +1,50 @@
+#input_wrapper {
+  border: solid 1px #c9c9c9;
+  height: 150px;
+  width: 500px;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow-y: auto;
+  margin: 20px 0;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+#input_wrapper .example-text {
+  color: #cfcfcf;
+  font-style: italic;
+}
+
+#input_wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#input_wrapper ul li.pill {
+  margin-right: 3px;
+}
+
+.email_input {
+  border: none;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  padding: 2px;
+  line-height: 20px;
+  resize: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+#input_wrapper ul li.input-target {
+  padding: 0;
+}
